@@ -45,8 +45,7 @@ button {
   color: #404bbf;
 }
 
-.navigation .link:focus,
-:active {
+.navigation .link:focus {
   color: #404bbf;
 }
 
