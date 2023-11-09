@@ -108,6 +108,9 @@ letter-spacing: 0.04em;
     letter-spacing: 0.02em;
 }
 
+
+/* Section 3, 4 */
+
 .team {
   background-color: #f4f4fd;
 }
@@ -116,8 +119,46 @@ letter-spacing: 0.04em;
   background-color: #fff;
 }
 
+.section-title{
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
+
+.name{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.profile{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+
+
+
+
 /*     Footer    */
 footer {
   background-color: #2e2f42;
   color: #fff;
+}
+
+.logo-bot {
+    color: #f4f4fd
+}
+
+.agitation{
+    line-height: 1.5;
+    color: #F4F4FD;
+    letter-spacing: 0.02em;
 }
