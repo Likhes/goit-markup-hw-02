@@ -73,11 +73,11 @@ color: #404bbf;
   text-align: center;
 }
 
-.order {
+.buy {
   background-color: #4d5ae5;
   color: #fff;
 }
-.order:hover {
+.buy:hover {
   background-color: #404bbf;
 }
 
