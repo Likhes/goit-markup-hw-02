@@ -41,8 +41,11 @@ button {
   letter-spacing: 0.02em;
 }
 
-.navigation .link:hover,
-:focus,
+.navigation .link:hover {
+  color: #404bbf;
+}
+
+.navigation .link:focus,
 :active {
   color: #404bbf;
 }
@@ -51,12 +54,12 @@ button {
   font-style: normal;
 }
 .address-links .link {
+  font-style: normal;
   color: #434455;
   font-size: 16px;
   line-height: 1.5;
   font-weight: 400;
   letter-spacing: 0.02em;
-  font-style: normal;
 }
 
 .address-links .link:hover {
