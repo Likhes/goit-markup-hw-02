@@ -4,18 +4,49 @@
 body {
   font-family: "Roboto", sans-serif;
   background-color: #fff;
-  color: #2E2F42
+  color: #2e2f42;
 }
 
-.main-header{
-    background-color: #2E2F42;
-    color:#fff;
-    text-align: center;
+a {
+  text-decoration: none;
 }
 
-footer{
-    background-color: #2E2F42;
-    color: #fff;
+ul {
+  list-style: none;
+}
+.navigation .link {
+  color: #2e2f42;
+}
+
+.navigation .link:hover {
+  color: #404bbf;
+}
+
+.main-header {
+  background-color: #2e2f42;
+  color: #fff;
+  text-align: center;
+}
+
+footer {
+  background-color: #2e2f42;
+  color: #fff;
+}
+
+.address-links .link {
+  color: #434455;
+}
+
+.address-links .link:hover {
+  color: #404bbf;
+}
+
+.order {
+  background-color: #4d5ae5;
+  color: #fff;
+}
+.order:hover {
+  background-color: #404bbf;
 }
 
 .team {
