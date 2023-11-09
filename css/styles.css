@@ -1,23 +1,22 @@
-
 /*             General          */
 
 .logo {
   font-family: "Raleway", sans-serif;
-font-weight: 700;
-font-size: 18px;
-line-height: 1.17;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: #4d5ae5;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
 }
-span{
-    color: #2e2f42;
+span {
+  color: #2e2f42;
 }
 
 body {
   font-family: "Roboto", sans-serif;
   background-color: #fff;
-color: #434455
+  color: #434455;
 }
 
 a {
@@ -29,9 +28,8 @@ ul {
 }
 
 button {
-    cursor: pointer;
+  cursor: pointer;
 }
-
 
 /*          Header              */
 
@@ -39,11 +37,15 @@ button {
   color: #2e2f42;
   font-size: 16px;
   line-height: 1.5;
-font-weight: 500;
+  font-weight: 500;
 }
 
 .navigation .link:hover {
   color: #404bbf;
+}
+
+.address{
+font-style: normal;
 }
 
 .address-links .link {
@@ -51,18 +53,24 @@ font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   font-weight: 400;
+letter-spacing: 0.02em;
 }
 
 .address-links .link:hover {
   color: #404bbf;
 }
 
+.address-links .link:focus{
+color: #404bbf;
+}
+
+
 /*                Main               */
 
 .main-header {
-    background-color: #2e2f42;
-    color: #fff;
-    text-align: center;
+  background-color: #2e2f42;
+  color: #fff;
+  text-align: center;
 }
 
 .order {
@@ -83,6 +91,6 @@ font-weight: 500;
 
 /*     Footer    */
 footer {
-    background-color: #2e2f42;
-    color: #fff;
+  background-color: #2e2f42;
+  color: #fff;
 }
