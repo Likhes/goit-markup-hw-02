@@ -40,12 +40,13 @@ button {
   font-weight: 500;
 }
 
-.navigation .link:hover {
+.navigation .link:hover, :focus {
   color: #404bbf;
 }
 
-.address {
-  font-style: normal;
+.link-a{
+    letter-spacing: 0.02em;
+
 }
 
 .address-links .link {
@@ -54,6 +55,7 @@ button {
   line-height: 1.5;
   font-weight: 400;
   letter-spacing: 0.02em;
+font-style: normal;
 }
 
 .address-links .link:hover {
